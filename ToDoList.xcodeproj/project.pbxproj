@@ -32,6 +32,8 @@
 		EF1A71942A304E7700FCEF7D /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A71932A304E7700FCEF7D /* ToDoListItemViewViewModel.swift */; };
 		EF1A71962A30D9EA00FCEF7D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A71952A30D9EA00FCEF7D /* HeaderView.swift */; };
 		EF1A71982A31778700FCEF7D /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A71972A31778700FCEF7D /* TLButton.swift */; };
+		EF1A719A2A32450500FCEF7D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A71992A32450500FCEF7D /* Extensions.swift */; };
+		EF1A719C2A3448C500FCEF7D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1A719B2A3448C500FCEF7D /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		EF1A71932A304E7700FCEF7D /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		EF1A71952A30D9EA00FCEF7D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		EF1A71972A31778700FCEF7D /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		EF1A71992A32450500FCEF7D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EF1A719B2A3448C500FCEF7D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,8 @@
 				EF1A71712A30460800FCEF7D /* GoogleService-Info.plist */,
 				EF1A715C2A301D9E00FCEF7D /* ToDoListApp.swift */,
 				EF1A71602A301D9F00FCEF7D /* Assets.xcassets */,
+				EF1A71992A32450500FCEF7D /* Extensions.swift */,
+				EF1A719B2A3448C500FCEF7D /* Launch Screen.storyboard */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -227,6 +233,7 @@
 			files = (
 				EF1A71642A301D9F00FCEF7D /* Preview Assets.xcassets in Resources */,
 				EF1A71612A301D9F00FCEF7D /* Assets.xcassets in Resources */,
+				EF1A719C2A3448C500FCEF7D /* Launch Screen.storyboard in Resources */,
 				EF1A71722A30460800FCEF7D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +260,7 @@
 				EF1A718C2A304E2F00FCEF7D /* ToDoListViewViewModel.swift in Sources */,
 				EF1A71902A304E5100FCEF7D /* LoginViewViewModel.swift in Sources */,
 				EF1A715D2A301D9E00FCEF7D /* ToDoListApp.swift in Sources */,
+				EF1A719A2A32450500FCEF7D /* Extensions.swift in Sources */,
 				EF1A71862A304DF100FCEF7D /* ToDoListItem.swift in Sources */,
 				EF1A717C2A304D9200FCEF7D /* NewItemView.swift in Sources */,
 				EF1A718E2A304E4400FCEF7D /* NewItemViewViewModel.swift in Sources */,
@@ -392,6 +400,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -421,6 +430,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
